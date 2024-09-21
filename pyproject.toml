@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "authbackend"
+version = "0.1.0"
+description = "JWT authentication api backend in django rest framework"
+authors = ["acharyapuru <acharyapuru@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "5.0.6"
+django-environ = "^0.11.2"
+drf-yasg = "^1.21.7"
+django-filter = "^24.3"
+django-cors-headers = "^4.4.0"
+psycopg = "^3.2.2"
+psycopg-binary = "^3.2.2"
+django-jazzmin = "^3.0.0"
+djangorestframework = "^3.15.2"
+djangorestframework-simplejwt = "^5.3.1"
+setuptools = "^75.1.0"
+pillow = "^10.4.0"
+six = "^1.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
